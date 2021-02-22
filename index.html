@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English for kids</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="wraper.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class=container>
+        <header class = "header">
+        </header>
+        <ul class="scale hidden"></ul>
+        <ul class="cards-list"></ul>
+        <div class="game-finish">
+        <div class="mistakes"></div>
+        <audio class = "gameover" src="./assets/audio/gameover.mp3"></audio>
+        <audio class = "gamewin" src="./assets/audio/gamewin.mp3"></audio>
+        <img  class = "game-over" src="./assets/images/gameover.png" alt="gameover">
+        <img  class = "game-win" src="./assets/images/gamewin.jpg" alt="gamewin">
+        </div>
+           <div class = "hidden options">
+                <button class = "reset-stat">Reset Statistic</button>
+                <button class = "repeat-stat">Repeat difficult words</button>
+            </div>
+            <table class="stat-table hidden"></table>
+        <div class = "container-btn-game"><button class="btn-play-game hidden">New game</button></div>
+        <footer class="footer">
+            <div >
+                <a href="https://github.com/Dmitry-Sokolovsky"><img src="./assets/images/github.png" alt="github"></a>
+                <span>Copyright © 2020</span>
+                <a href="https://rs.school/js/"><img src="./assets/images/rsschool.png" alt="rs.school" class="rsscool"></a>
+                
+            </div>
+        </footer>
+    </div>
+    <script src="index.js" type="module"></script>
+</body>
+</html>
